@@ -11,6 +11,7 @@
     /// </summary>
     /// <typeparam name="TK">Type of BTree Key.</typeparam>
     /// <typeparam name="TP">Type of BTree Pointer associated with each Key.</typeparam>
+    [Serializable]
     public class BTree<TK, TP> where TK : IComparable<TK>
     {
         public BTree(int degree)

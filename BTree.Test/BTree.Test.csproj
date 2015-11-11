@@ -4,7 +4,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EDA145AA-4E5E-43F7-8BB7-B2C85E585BEC}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>BTree.Test</RootNamespace>
     <AssemblyName>BTree.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -27,6 +27,9 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="nunit.framework">
@@ -39,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BTreeTest.cs" />
-    <Compile Include="test.cs" />
     <Compile Include="TreeValidation.cs" />
   </ItemGroup>
   <ItemGroup>

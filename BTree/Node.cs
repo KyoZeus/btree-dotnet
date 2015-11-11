@@ -1,7 +1,9 @@
 ﻿namespace BTree
 {
     using System.Collections.Generic;
+    using System;
 
+    [Serializable]
     public class Node<TK, TP>
     {
         private int degree;
